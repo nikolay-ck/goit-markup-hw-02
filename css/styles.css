@@ -56,7 +56,6 @@ a {
 }
 
 .title {
-    font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -72,6 +71,13 @@ a {
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
+            font-family: inherit;
+            cursor: pointer;
+}
+
+.button-title:hover,
+.button-title:focus {
+   background-color: #404bbf; 
 }
 
 .advantages-title {
@@ -83,10 +89,45 @@ font-weight: 500;
 }
 
 .advantages-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.team {
+    background-color: #f4f4fd;;
+}
+
+.team-img {
+    background-color: #fff;
+}
+
+.team-title,
+.portfolio-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.team-name,
+.portfolio-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-text,
+.portfolio-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
         color: #434455;
 }
 
@@ -99,35 +140,12 @@ font-weight: 500;
     color: #f4f4fd;
 }
 
-
-
-
-
-/* .raleway-<uniquifier> {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
 
-
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-} */
 
 
